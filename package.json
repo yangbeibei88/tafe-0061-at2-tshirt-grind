@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "jquery-validation": "^1.20.0",
+    "sass": "^1.69.5"
+  }
+}

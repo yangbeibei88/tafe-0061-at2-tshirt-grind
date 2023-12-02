@@ -1,0 +1,22 @@
+/* Color Theme Swatches in Hex */
+$darknavy-color: #222640;
+$skyblue-color: #0487D9;
+$orange-color: #F2B705;
+$darkorange-color: #F29F05;
+$orangered-color: #D94032;
+$lightgray-color: #f4f4f4;
+$lightgray2-color: #d3d3d3;
+$darkgray-color: #333440;
+$lightslategray-color: #778899;
+
+/*Darken button bg color by 10% when hover*/
+@mixin darken-on-hover($bgColor) {
+  &:hover {
+    background-color: darken($bgColor, 5%);
+  }
+}
+@mixin lighten-on-hover($color) {
+  &:hover {
+    color: lighten($color, 10%);
+  }
+}
